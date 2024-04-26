@@ -3,3 +3,16 @@
     padding: 0;
     box-sizing: border-box;
 }
+.main_container{
+    /* background-color: red; */
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    padding: 20px;
+    gap: 20px;
+}
+.main_container div{
+    /* background-color: blue; */
+    display: grid;
+    gap: 20px;
+    width: 250px;
+}
